@@ -1,0 +1,23 @@
+/* small */
+@media(min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* meduim */
+@media(min-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+/* large */
+@media(min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+
+
+<label> <input class="toggle-checkbox" type="checkbox">
+                <div class="toggle-switch"></div>
+            </label>

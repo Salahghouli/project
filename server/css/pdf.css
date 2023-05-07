@@ -1,0 +1,96 @@
+.pdf{
+    border: 1px solid #eee;
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    padding: 20px;
+    background-image: linear-gradient(#87ceeb, #ffffff);
+}
+.header-pdf{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-pdf .logo i{
+    font-size: 120px;
+    color: #119CFDFF;
+}
+.header-pdf .dr{
+    position: relative;
+    width: 250px;
+    margin-bottom: 0;
+}
+.header-pdf .dr::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(#A100FFFF, #119CFDFF)
+}
+.header-pdf .dr h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-pdf .dr h1 span{
+    color: rgb(40, 125, 253);
+}
+.header-pdf .dr p{
+    margin-top: 5px;
+    font-weight: 600;
+}
+.pdf .hosb{
+    position: relative;
+    width: 450px;
+    height: 50px;
+    margin: 0;
+}
+.pdf .hosb h1{
+    color: rgb(40, 125, 253);
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    margin: 0;
+}
+.pdf .hosb p{
+    position: absolute;
+    color: #adadad;
+    bottom: 0;
+
+}
+.content{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    position: relative;
+}
+
+.content-rx{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.content-rx h1{
+    color: #119CFDFF;;
+}
+.content-rx ol{
+    padding-left: 50px;
+}
+.content-rx ol li{
+    margin-bottom: 10px;
+}
+.pdf .Signature p{
+    margin-left: auto;
+    width: fit-content;
+    border-bottom: 1px solid #eee;
+    color: #119CFDFF;
+}
+.pdf .footer-pdf p{
+    font-weight: bold;
+}
+.pdf .footer-pdf p i{
+    color: #119CFDFF;
+}
+
+
